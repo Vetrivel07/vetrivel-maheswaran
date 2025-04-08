@@ -13,6 +13,5 @@ Designed and developed a personal portfolio website from scratch using HTML, CSS
 
 👤 **Vetrivel Maheswaran**
 
-* LinkedIn: [linkedin](https://www.linkedin.com/in/vetrivel-maheswaran)
-* GitHub: [GitHub](https://github.com/Vetrivel07)
-[![Tableau](https://img.shields.io/badge/linkedin-blue)](https://www.linkedin.com/in/vetrivel-maheswaran)
+[![LinkedIn](https://img.shields.io/badge/linkedin-blue)](https://www.linkedin.com/in/vetrivel-maheswaran)
+
