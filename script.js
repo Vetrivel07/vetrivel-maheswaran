@@ -128,18 +128,3 @@ if (document.querySelector('.typing')) {
     loop: true
   });
 }
-
-// Email contact
-
-document.getElementById('contact-form').addEventListener('submit', function(e) {
-  e.preventDefault();
-
-  emailjs.sendForm('service_z57spao', 'template_kfg0cql', this)
-    .then(function() {
-      alert("Message sent successfully!");
-      document.getElementById("contact-form").reset();
-    }, function(error) {
-      alert("Failed to send message. Please try again.");
-      console.error(error);
-    });
-});

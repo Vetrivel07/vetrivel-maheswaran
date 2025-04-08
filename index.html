@@ -31,11 +31,6 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script defer type="text/javascript" src="/script.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script>
-      (function(){
-        emailjs.init("Q29JGwLaOYcR14IAx"); // Replace with your EmailJS public key
-      })();
-    </script>
 
     <title>Vetrivel Maheswaran</title>
   </head>
@@ -75,12 +70,12 @@
           <p class="header-text"> </p>
           <div class="header-btns">
             <a href="#contact" class="btn btn-cta">Hire me</a>
-            <a href="#work" class="btn btn-secondary">See my work</a>
+            <a href="assets/images/Vetrivel_Maheswaran_CV.pdf" target="_blank" class="btn btn-secondary" download="Vetrivel_M_CV">Resume</a>
           </div>
         </div>
 
         <div class="header-image">
-          <img src="/assets/images/vetrivel.jpg" alt="Vetrivel Maheswaran" />
+          <img src="assets/images/logo/vetrivel.png" alt="Vetrivel Maheswaran"/>
         </div>
       </div>
     </header>
@@ -524,8 +519,8 @@
                     Testimonials Section
  --------------------------------------------------->
 
-      <!-- Replace testimonials, author name, author job, img src and, alt attributes
-
+       <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+<!--
       <section>
         <h2 class="h2">Testimonials</h2>
         <div class="container">
@@ -534,6 +529,7 @@
             <li class="testimonial">
               <blockquote class="testimonial-text">
                content
+               <a href="#" class="popup-trigger" data-img="https://via.placeholder.com/600x400">View Image</a>
               </blockquote>
               <figure class="testimonial-author">
                 <img
@@ -634,7 +630,13 @@
             </li>
           </ol>
         </div>
-      </section> -->
+      </section> 
+      <div id="imagePopup" class="popup-modal">
+        <span class="popup-close" id="popupClose">&times;</span>
+        <img class="popup-content" id="popupImage" src="/assets/images/hero-bg-light.webp" alt="Popup Image">
+      </div>
+      
+    -->      
 
 
 <!--------------------------------------------------
@@ -643,8 +645,8 @@
 
       <section class="contact">
         <div class="container">
-          <h2 class="sub-text" id="contact">Don't be a Stranger!</h2>
-          <h2 class="h2" id="contact">Let's connect</h2>
+          <h2 class="sub-text" id="contact">Don&apos;t be a Stranger!</h2>
+          <h2 class="h2" id="contact">Let&apos;s connect</h2>
           
 
           
@@ -659,9 +661,6 @@
                 With expertise in data analysis, interpretation, and machine learning, I help businesses inform decision-making, fuel innovation, 
                 and stay ahead of the curve. 
               </p>
-              <!-- <p class="contact-text">
-                Let's connect and explore how data and AI can drive success for your organization
-              </p> -->
               <img
                 src="assets/images/logo/signature.png"
                 alt="Vetrivel Maheswaran"
@@ -670,20 +669,19 @@
               />
             </div>
             <form action="#" class="contact-form" netlify>
-              <div class="form-field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" required />
-              </div>
-              <div class="form-field">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required inputmode="email"/>
-              </div>
-              <div class="form-field">
-                <label for="message">How can I help you?</label>
-                <textarea name="message" id="message" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-cta">Send</button>
-            </form>
+                <div>
+                  <h4>Think we&apos;d be a fantastic fit!</h4>
+
+                  <p>
+                    Shoot me an Email me to explore potential collaboration opportunities and let's make something incredible happen
+                  </p>
+
+                  <div class="contact-button-wrapper">
+                    <a href="mailto:vetrim2003@gmail.com" target="_blank" class="btn contact-btn">Drop a Message</a>
+                  </div>              
+
+                </div>
+              </form>
           </div>
         </div>
       </section>
