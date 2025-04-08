@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <meta name="description" content="Welcome to my portfolio website. I am a data enthusiast and analyst with a passion for unlocking insights and driving growth through data-driven solutions."/>
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Vetrivel Maheswaran's Portfolio">
+    <meta itemprop="description" content="Welcome to my portfolio website. I am a data enthusiast and analyst with a passion for unlocking insights and driving growth through data-driven solutions.">
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo/favicon(1).ico"
+      type="image/png"
+    />
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script defer type="text/javascript" src="/script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function(){
+        emailjs.init("Q29JGwLaOYcR14IAx"); // Replace with your EmailJS public key
+      })();
+    </script>
+
+    <title>Vetrivel Maheswaran</title>
+  </head>
+
+  <body>
+ <!--------------------------------------------------
+                    About Section
+ --------------------------------------------------->
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#blog">Internship</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item"><a href="#contact" data-focused="last-focused">Contact</a></li>
+        </ol>
+      </nav>
+
+      <div class="header-container">
+        <div class="header-textbox">
+          <h1>I'm <span class="name-highlight">Vetrivel Maheswaran</span></h1>
+          <h2>I am <span class="typing" ></span></h2>
+          <p class="header-text"> </p>
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#work" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+
+        <div class="header-image">
+          <img src="/assets/images/vetrivel.jpg" alt="Vetrivel Maheswaran" />
+        </div>
+      </div>
+    </header>
+
+<main>
+
+<!--------------------------------------------------
+                    Client Section
+ --------------------------------------------------->
+
+      <section class="client">
+        <div class="container">
+          <h2 class="h2">Tool kits</h2>
+          <div class="logos">
+           
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/fluency/48/python.png"
+                alt="Python"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
+                alt="Java"
+                class="logo"
+              />
+
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/fluency/48/r-project.png"
+                alt="R"
+                class="logo hide to-bottom"
+              />
+
+              </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/color/48/mysql-logo.png"
+                alt="MySql"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/color/48/tableau-software.png"
+                alt="Tableau"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/fluency/48/power-bi-2021.png"
+                alt="PowerBI"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/color/48/numpy.png"
+                alt="Numpy"
+                class="logo hide to-top"
+              /><img
+                loading="lazy"
+                src="https://img.icons8.com/color/48/pandas.png"
+                alt="Pandas"
+                class="logo"
+              /><img
+                loading="lazy"
+                src="https://img.icons8.com/nolan/64/flask.png"
+                alt="Flask"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/color/48/git.png"
+                alt="Git"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/fluency/48/visual-studio-code-2019.png"
+                alt="VS Code"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="https://img.icons8.com/fluency/48/pycharm.png"
+                alt="PyCharm"
+                class="logo hide to-bottom"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--------------------------------------------------
+                    Internship Section
+ --------------------------------------------------->
+
+      <section class="article">
+        <div class="container">
+          <h2 class="h2" id="blog"> Internship's </h2>
+          <div class="article-boxes">
+            
+            <article class="article-box-intern">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">Data Science Intern</h3>
+                  <span><i>CodSoft - Chennai</i></span>
+                  <p class="article-text">
+                    Developed a data analysis project called Sales Prediction using a Kaggle dataset with Python, 
+                    applying techniques to analyze data, extract insights, and build predictive models for outcome prediction.
+                  </p>
+                </div>
+                <div class="article-info">
+                 
+                  <span class="year"> June 2024 - Aug 2024</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="article-box-intern">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">Machine Learning Intern</h3>
+                  <span><i>Barola Technologies - Chennai</i></span>
+                  <p class="article-text">
+                    During my Machine Learning internship, I learned about various ML models and algorithms, including regression,
+                    classification, and clustering, and how to apply them to solve real-world problems
+                  </p>
+                </div>
+                <div class="article-info">
+                  <!-- <a href="#" class="link" target="_blank" rel="noopener">Continue reading</a> -->
+                  <span class="year"> June 2023 - Aug 2023</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+
+<!--------------------------------------------------
+                    Work Section
+ --------------------------------------------------->
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Project's</h2>
+          <div class="work-boxes">
+
+            <!-- Project 1 -->
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Smart Detection of Car Defective Parts with Recommendations</h3>
+                <p class="work-text">
+                  This application was built on Flask web framework,which utilizes AI-driven machine learning algorithms 
+                to accurately identify and assess vehicle damages. This project streamlines the inspection process for enhanced efficiency and user experience.
+                </p>
+                <ol class="work-technologies">
+                  <ul>&#128278; Python, Machine Learning, Flask, HTML5, CSS3, JavaScript</ul>
+                </ol>
+
+                <div class="work-links">
+                  <a href="https://github.com/Vetrivel07/Smart-Detection-of-Car-Defective-parts-with-Recommendations" target="_blank" rel="noopener" class="link">Explore this project</a>
+                  <a href="https://github.com/Vetrivel07/Smart-Detection-of-Car-Defective-parts-with-Recommendations" target="_blank" rel="noopener" title="Source code" >
+                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
+                  </a>
+                </div>
+              </div>
+
+              <picture class="work-img">
+                <img loading="lazy" src="assets/images/work/project1.png" alt="project1"/>
+              </picture>
+            </div>
+
+            <!-- Project 2 -->
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Fertilizer Recommendation System for Disease Prediction</h3>
+                <p class="work-text">
+                  AI-powered Fertilizer Recommendation System utilize Machine learning algorithms and data analysis to analyzes soil characteristics, crop type, and weather conditions 
+                  to provide personalized fertilizer suggestions.
+                </p>
+                <ol class="work-technologies">
+                  <ul>&#128278; Python, Machine Leanring, HTML5, CSS3, JavaScript</ul>
+                </ol>
+                <div class="work-links">
+                  <a href="https://github.com/Vetrivel07/20IT928-PRIEE-C6" target="_blank" rel="noopener" class="link">Explore this project</a>
+                  <a href="https://github.com/Vetrivel07/20IT928-PRIEE-C6" target="_blank" rel="noopener" title="Source code" >
+                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
+                  </a>
+                </div>
+              </div>
+              <picture class="work-img">
+                <img loading="lazy" src="assets/images/work/project2.jpg" alt="project2"/>
+              </picture>
+            </div>
+
+            <!-- Project 3 -->
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Sales Prediction using Python</h3>
+                <p class="work-text">
+                  Developed a Python-based sales forecasting model using machine learning and statistical techniques
+                   to predict future sales, informing business decisions on inventory, pricing, and resources
+                </p>
+                <ol class="work-technologies">
+                  <ul>&#128278; Jupyter Notebook, Pandas, NumPy, and scikit-learn</ul>
+                </ol>
+                <div class="work-links">
+                  <a href="https://github.com/Vetrivel07/CodSoft_Sales-Prediction-using-Python" target="_blank" rel="noopener" class="link">Explore this project</a>
+                  <a href="https://github.com/Vetrivel07/CodSoft_Sales-Prediction-using-Python" target="_blank" rel="noopener" title="Source code" >
+                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
+                  </a>
+                </div>
+              </div>
+
+              <picture class="work-img">
+                <img loading="lazy" src="assets/images/work/project3.png" alt="project3"/>
+              </picture>
+            </div>
+
+            <!-- Project 4 -->
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Employee Management System</h3>
+                <p class="work-text">
+                  This is a web platform, a simple yet effective project that utilizes MySQL and Flask framework to track 
+                  employee data, interact with databases, and demonstrate my understanding of these technologies in a real-world application
+                </p>
+                <ol class="work-technologies">
+                  <ul>&#128278; Python, Flask, MySQL, HTML5, CSS3</ul>
+                </ol>
+                <div class="work-links">
+                  <a href="https://github.com/Vetrivel07/Employee-management-System" target="_blank" rel="noopener" class="link">Explore this project</a>
+                  <a href="https://github.com/Vetrivel07/Employee-management-System" target="_blank" rel="noopener" title="Source code" >
+                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
+                  </a>
+                </div>
+              </div>
+
+              <picture class="work-img">
+                <img loading="lazy" src="assets/images/work/project4.png" alt="project4"/>
+              </picture>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    <!-- Other Notable projects in Tableau, PowerBI, and more... -->
+
+      <section class="article">
+        <div class="container">
+          <h2 class="h2" id="blog">Other Notable Work's</h2>
+          <div class="article-boxes">
+            <!-- Project 1 -->
+            <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h3">
+                    DataScience JobSalary Insights
+                  </h3>
+                  <p class="article-text">
+                    This interactive Tableau dashboard provides insights on data science salaries, 
+                    helping professionals, employers, and educators make informed decisions on salary and 
+                    career development
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://github.com/Vetrivel07/Tableau-Projects" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a>
+                  <a href="https://github.com/Vetrivel07/Tableau-Projects" target="_blank" rel="noopener" title="Source code" ><img src="https://img.icons8.com/ios-filled/50/github.png"  alt="GitHub" loading="lazy"></a>
+                  <a href="https://public.tableau.com/views/DataScienceJobssalariesdashboard_17422691806860/DataScienceJobssalariesdashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"  target="_blank" rel="noopener" title="Public viz" >
+                    <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau"></a>
+                  
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img src="assets/images/work/tableau1.png" alt="Tableau-Project" loading="lazy" />
+              </picture>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h3">
+                    Economic visualization across countries
+                  </h3>
+                  <p class="article-text">
+                    This Tableau project visualizes economic indicators across countries, offering insights 
+                    into GDP, inflation, and more, to inform decision-making and economic understanding
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://github.com/Vetrivel07/Tableau-Projects" class="link" target="_blank" rel="noopener"
+                  >Continue reading</a>
+                  <a href="https://github.com/Vetrivel07/Tableau-Projects"  target="_blank" rel="noopener" title="Source code" ><img src="https://img.icons8.com/ios-filled/50/github.png"  alt="GitHub" loading="lazy"></a>
+                  <a href="https://public.tableau.com/views/DataScienceJobssalariesdashboard_17422691806860/DataScienceJobssalariesdashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener" title="Public viz">
+                    <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau"></a>
+                  
+                  
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img src="assets/images/work/Tableau2.png" alt="Tableau-Project" loading="lazy" />
+              </picture>
+            </article>
+
+
+             <!-- Project 3 -->
+             <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h3">
+                    Sales Analysis Dashboard
+                  </h3>
+                  <p class="article-text">
+                    This is a Power BI project focused on sales analysis across multiple countries, providing key insights into revenue and profit trends.
+                    It showcases how data visualization can drive business decisions and optimize sales strategies
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://github.com/Vetrivel07/PowerBI-Projects" class="link" target="_blank" rel="noopener"
+                  >Continue reading</a>
+                  <a href="https://github.com/Vetrivel07/PowerBI-Projects"  target="_blank" rel="noopener" title="Source code" ><img src="https://img.icons8.com/ios-filled/50/github.png"  alt="GitHub" loading="lazy"></a>
+                  <a href="" target="_blank" rel="noopener" title="Public viz"><img src="https://img.icons8.com/fluency/48/power-bi-2021.png" alt="PowerBI"></a>
+                  
+                  
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img src="assets/images/work/PowerBI1.png" alt="PowerBI-Project" loading="lazy" />
+              </picture>
+            </article>
+
+
+            <!-- <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">JavaScript Default Function Parameters.</h3>
+                  <p class="article-text">
+                    In JavaScript when we call a function which expects some
+                    data to be passed in if you call that without passing
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="#" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      src="#"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    47
+                  </span>
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">
+                    Free Open-source portfolio template for developers ✨
+                  </h3>
+                  <p class="article-text">
+                    A beautiful, minimal and accessible portfolio template for
+                    Developers which is completely free and Open Source.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="#" class="link" target="_blank" rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      src="#"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    177
+                  </span>
+                </div>
+              </div>
+            </article> -->
+            
+          </div>
+        </div>
+      </section>
+
+    
+<!--------------------------------------------------
+                    Skills Section
+ --------------------------------------------------->
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+                <img src="https://img.icons8.com/fluency/48/python.png" alt="Python" class="skills-img" loading="lazy" title="Python">
+                <img src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="Java" class="skills-img" loading="lazy" title="Java">
+                 <img src="https://img.icons8.com/fluency/48/r-project.png" alt="R" class="skills-img" loading="lazy" title="R">
+                 <img src="https://img.icons8.com/fluency/48/html-5.png" alt="HTML5" class="skills-img" loading="lazy" title="HTML5">
+                 <img src="https://img.icons8.com/fluency/48/css3.png" alt="CSS3" class="skills-img" loading="lazy" title="CSS3">
+                 <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau" class="skills-img" loading="lazy" title="Tableau">
+                 <img src="https://img.icons8.com/fluency/48/power-bi-2021.png" alt="PowerBI" class="skills-img" loading="lazy" title="PowerBI">
+                 <img src="https://img.icons8.com/color/48/mysql-logo.png" alt="MySQL" class="skills-img" loading="lazy" title="MySQL">
+                 <img src="https://img.icons8.com/color/48/git.png" alt="Git" class="skills-img" loading="lazy" title="Git">
+                 <img src="https://img.icons8.com/nolan/64/flask.png" alt="Flask" class="skills-img" loading="lazy" title="Flask">
+                 <img src="https://img.icons8.com/color/48/pandas.png" alt="Pandas" class="skills-img" loading="lazy" title="Pandas">
+                 <img src="https://img.icons8.com/color/48/numpy.png" alt="Numpy" class="skills-img" loading="lazy" title="Numpy">
+                 <img src="https://img.icons8.com/color/48/windows-10.png" alt="Windows" class="skills-img" loading="lazy" title="Windows">
+                 <img src="https://img.icons8.com/color/48/linux--v1.png" alt="Linux" class="skills-img" loading="lazy" title="Linux">
+                 <img src="https://img.icons8.com/color/48/office-365.png" alt="office-365" class="skills-img" loading="lazy" title="office-365">
+                 <img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" alt="MSExcel" class="skills-img" loading="lazy" title="MS Excel">
+                 <img src="https://img.icons8.com/fluency/48/visual-studio-code-2019.png" alt="VS code" class="skills-img" loading="lazy" title="VS code">
+                 <img src="https://img.icons8.com/fluency/48/pycharm.png" alt="Pycharm" class="skills-img" loading="lazy" title="Pycharm">
+
+            </figure>
+          </div>
+        </div>
+      </section>
+
+  
+<!--------------------------------------------------
+                    Testimonials Section
+ --------------------------------------------------->
+
+      <!-- Replace testimonials, author name, author job, img src and, alt attributes
+
+      <section>
+        <h2 class="h2">Testimonials</h2>
+        <div class="container">
+
+          <ol class="testimonials">
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+               content
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src=""
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Name</h3>
+                  <p class="testimonial-author-job">role@organization</p>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                content
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src=""
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Name</h3>
+                  <p class="testimonial-author-job">role@organization</p>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                content
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src=""
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Name</h3>
+                  <p class="testimonial-author-job">role@organization</p>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+               content
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src=""
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Name</h3>
+                  <p class="testimonial-author-job">role@organization</p>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+              content
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src=""
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Name</h3>
+                  <p class="testimonial-author-job">role@organization</p>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                content
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src=""
+                  alt=""
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Name</h3>
+                  <p class="testimonial-author-job">role@organization</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ol>
+        </div>
+      </section> -->
+
+
+<!--------------------------------------------------
+                    Contact Section
+ --------------------------------------------------->
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="sub-text" id="contact">Don't be a Stranger!</h2>
+          <h2 class="h2" id="contact">Let's connect</h2>
+          
+
+          
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                As a data enthusiast and analyst with a passion for unlocking insights and driving growth through data-driven solutions. 
+                With expertise in data analysis, interpretation, and machine learning, I help businesses inform decision-making, fuel innovation, 
+                and stay ahead of the curve. 
+              </p>
+              <!-- <p class="contact-text">
+                Let's connect and explore how data and AI can drive success for your organization
+              </p> -->
+              <img
+                src="assets/images/logo/signature.png"
+                alt="Vetrivel Maheswaran"
+                class="signatures"
+                loading="lazy"
+              />
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required inputmode="email"/>
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+<!--------------------------------------------------
+                    Footer Section
+ --------------------------------------------------->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <nav>
+            <ol class="footer-links">
+              
+              <li class="footer-link">
+                <a title="GitHub" href="mailto:vetrim2003@gmail.com" target="_blank" rel="noopener">
+                  <img loading="lazy" src="https://img.icons8.com/ios-filled/50/gmail-new.png" alt="GitHub"/></a>
+              </li>
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/Vetrivel07" target="_blank" rel="noopener">
+                  <img loading="lazy" src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub"/></a>
+              </li>
+              <li class="footer-link">
+                <a title="GitHub" href="https://www.linkedin.com/in/vetrivel-maheswaran/" target="_blank" rel="noopener">
+                  <img loading="lazy" src="https://img.icons8.com/metro/26/linkedin.png" alt="Linkedin"/></a>
+              </li>
+              <li class="footer-link">
+                <a title="GitHub" href="https://twitter.com/irtev_m_07" target="_blank" rel="noopener">
+                  <img loading="lazy" src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="Twitter"/></a>
+              </li>
+              <li class="footer-link">
+                <a title="GitHub" href="https://discordapp.com/users/914083343342133248" target="_blank" rel="noopener">
+                  <img loading="lazy" src="https://img.icons8.com/fluency-systems-filled/48/discord-logo.png" alt="Discord"/></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2024</span> - Designed & developed with Passion by <a target="_blank" rel="noopener" href="https://github.com/Vetrivel07">Vetrivel Maheswaran.</a>
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
