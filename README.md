@@ -6,7 +6,7 @@ Designed and developed a personal portfolio website from scratch using HTML, CSS
 
 ## Screenshots
 
-![ss](![Screenshot (95)](https://github.com/user-attachments/assets/ac6eb92c-2a46-4b9f-85fe-235c4db4964a)
+(![Screenshot (95)](https://github.com/user-attachments/assets/ac6eb92c-2a46-4b9f-85fe-235c4db4964a)
 
 
 ## Author
