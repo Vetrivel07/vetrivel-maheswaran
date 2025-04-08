@@ -549,8 +549,8 @@ main {
 }
 
 .header-image img {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 0 12px rgba(0, 255, 255, 0.4);/* Optional glow */
