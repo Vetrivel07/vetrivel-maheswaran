@@ -118,7 +118,7 @@ yearEl.textContent = new Date().getFullYear();
 if (document.querySelector('.typing')) {
   var typed = new Typed('.typing', {
     strings: [
-      "a Data Analyst",
+      "an AI Engineer",
       "a Machine Learning Practitioner",
       "a Data Enthusiast"
     ],
