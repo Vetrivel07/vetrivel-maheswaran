@@ -3,12 +3,6 @@
 Welcome to my **personal portfolio website**! This project showcases my skills, projects, and background in a professional and interactive way using **HTML**, **CSS**, and **JavaScript**.
 
 
-## Preview
-
-Check out my [work](https://vetrivel07.github.io/vetrivel-maheswaran/)
-
-![Preview Img](https://github.com/user-attachments/assets/ac6eb92c-2a46-4b9f-85fe-235c4db4964a)
-
 ## 📌 Features
 
 - Responsive design for all devices
