@@ -8,7 +8,7 @@
   --muted: #9a9a9a;
   --shadow: 0 0 28px rgba(0,229,255,0.25);
 
-  --heroPhoto: url('/assets/images/profile2.png');
+  --heroPhoto: url('../assets/images/profile2.png');
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -849,7 +849,7 @@ textarea.promptInput:focus {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background-image: url(/assets/images/profile1.png);
+  background-image: url(../assets/images/profile1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1518,7 +1518,7 @@ footer {
   width: 220px;
   border-radius: 50%;
   border: 1px solid var(--border);
-  background-image: url(/assets/images/profile1.png);
+  background-image: url(../assets/images/profile1.png);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
