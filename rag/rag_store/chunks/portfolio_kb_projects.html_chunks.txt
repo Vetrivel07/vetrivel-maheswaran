@@ -1,0 +1,93 @@
+
+===== CHUNK 0 =====
+## Projects
+### LinkedIn AI Agent (Jun 2025 - Aug 2025) [Personal project]
+Description: Built a modular AI agent using LangChain and OpenAI to transform user ideas into structured, human-style LinkedIn posts and publish them directly via LinkedIn’s API using a clean MCP-based design.
+Tech Stack: Streamlit, Python, FastAPI, OpenAI GPT Models, LangChain
+GitHub: https://github.com/Vetrivel07/linkedin-agent
+Tags: Generative AI, LLM Agents, Content Automation, Prompt Engineering, API Integration, MCP Architecture
+
+### NewsBot: AI-Powered News Q&A (May 2025 - Jun 2025) [Personal project]
+Description: Built an end-to-end AI Q&A pipeline that ingests news articles and PDFs, performs semantic search using vector embeddings, and delivers context-aware answers grounded in the original sources.
+Tech Stack: Streamlit, Python, FastAPI, FAISS, OpenAI GPT Models, LangChain
+GitHub: https://github.com/Vetrivel07/NewsBot
+Tags: Retrieval-Augmented Generation, Semantic Search, Document Q&A, LLMs, Vector Da
+
+===== CHUNK 1 =====
+T Models, LangChain
+GitHub: https://github.com/Vetrivel07/NewsBot
+Tags: Retrieval-Augmented Generation, Semantic Search, Document Q&A, LLMs, Vector Databases, Information Retrieval
+
+### AI-Powered Resume Evaluator (Apr 2025 - May 2025) [Personal project]
+Description: Uploads a resume PDF and job description, then uses Gemini 2.5 Flash to extract content, evaluate alignment, and generate a structured report with match percentage and improvement suggestions.
+Tech Stack: Streamlit, Custom CSS, Python, FastAPI, FAISS, Google Gemini Model, LangChain, python-dotenv, pdf2image, Pillow
+GitHub: https://github.com/Vetrivel07/AI-Powered-Resume-Evaluator
+Tags: Resume Screening, ATS Simulation, Multimodal, LLM, Job Matching ,Evaluation Report, Prompt Engineering
+
+### Ticket Management System (Feb 2025 - Mar 2025) [Personal project]
+Description: Built a role-based ticket management system that enforces structured workflows for service request creation, assignment, status transitions, and resolution,
+
+===== CHUNK 2 =====
+a role-based ticket management system that enforces structured workflows for service request creation, assignment, status transitions, and resolution, with separate dashboards and permissions for employees, responders, and administrators.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, MySQL
+GitHub: https://github.com/Vetrivel07/Ticket-Management-System
+Tags: Role-Based Access, Ticketing System, Workflow Management, CRUD Operations, Web Application, Authentication
+
+### Knowledge Graph Analysis of Goodreads Comics (Nov 2025 - Dec 2025) [Academic project]
+Description: Designed and implemented a multi-million–node Neo4j graph using an index-first, batch-based ingestion pipeline and semantically constrained Cypher queries to enable scalable, interpretable multi-hop graph analysis.
+Tech Stack: 
+HTML, CSS, JavaScript, D3.js (Visualization), Node.js, Neo4j (Graphh Database), Neo4j Desktop, APOC Procedures, npm
+GitHub: https://github.com/Vetrivel07/neo4j-project
+Tags: Graph Databases, Neo4j, Lar
+
+===== CHUNK 3 =====
+js, Neo4j (Graphh Database), Neo4j Desktop, APOC Procedures, npm
+GitHub: https://github.com/Vetrivel07/neo4j-project
+Tags: Graph Databases, Neo4j, Large-Scale Data Ingestion, Cypher Queries, Knowledge Graphs, Data Modeling, Performance Optimization, Graph Visualization
+
+### Wikipedia Bias Detection (Sep 2025 - Dec 2025) [Academic project]
+Description: Implements a transparent NLP pipeline combining TF-IDF + Logistic Regression, topic modeling, and sentiment analysis to perform full-text and paragraph-level bias detection with probability-calibrated outputs and visual explanations.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, Scikit-learn (TF-IDF, Logistic Regression, LDA), NLTK (VADER), Hugging Face (weak labeling), Virtualenv
+GitHub: https://github.com/Vetrivel07/Wikipedia-Bias-Detection
+Tags: NLP, Bias Detection, Explainable AI, Text Classification, Topic Modeling, Sentiment Analysis, Machine Learning
+
+### Museum Explorer (Sep 2025 - Oct 2025) [Academic project]
+Description: Impleme
+
+===== CHUNK 4 =====
+lassification, Topic Modeling, Sentiment Analysis, Machine Learning
+
+### Museum Explorer (Sep 2025 - Oct 2025) [Academic project]
+Description: Implements a Flask–MongoDB system with 2dsphere indexing, GridFS-based image storage, and address-to-coordinate geocoding to support full-text search, proximity queries, and interactive museum exploration at scale.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, MongoDB, OpenStreetMap Nominatim API, pymongo
+GitHub: https://github.com/Vetrivel07/Museum-explorer
+Tags: MongoDB, NoSQL Databases, Geospatial Search, Location-Based Services, GridFS, Web Application, Data Engineering
+
+### QR Gen-Scan Portal (Oct 2024 - Nov 2024) [Personal project]
+Description: Implements a Flask-based application that supports QR code generation from text or URLs, customizable labeling, image download, and real-time webcam scanning with a structured multi-page UI.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, qrcode, OpenCV (opencv-python), pyzbar, Pillow
+GitHub: https://
+
+===== CHUNK 5 =====
+canning with a structured multi-page UI.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, qrcode, OpenCV (opencv-python), pyzbar, Pillow
+GitHub: https://github.com/Vetrivel07/qr-gen-scan-portal
+Tags: QR Codes, Web Application, Computer Vision, Flask, Utility Tool, Image Processing
+
+### Sales Analysis Dashboard (Jun 2023) [Academic project]
+Description: Designed a Power BI dashboard with structured data modeling and DAX-based measures to analyze revenue, profit, cost, and monthly trends across multiple regions and products.
+Tech Stack: Microsoft Power BI, Kaggle, DAX, Power BI Data Model
+GitHub: https://github.com/Vetrivel07/Data-Visualization-Portfolio/tree/main/Sales-Analysis-Dashboard
+Tags: Power BI, Business Intelligence, Data Visualization, Sales Analytics, Dashboard Design, Data Modeling
+
+### Data Science JobSalary Dashboard (May 2023) [Academic project]
+Description: Built a multi-sheet Tableau dashboard that models salary data across experience, employment type, geography, company s
+
+===== CHUNK 6 =====
+[Academic project]
+Description: Built a multi-sheet Tableau dashboard that models salary data across experience, employment type, geography, company size, and job title to support comparative and trend-based analysis.
+Tech Stack: Tableau, Kaggle, Tableau Calculated Fields, Parameters, Data Model
+GitHub: https://github.com/Vetrivel07/Data-Visualization-Portfolio/tree/main/DataScience-JobSalary-Insights
+Tags: Data Visualization, Salary Analysis, Career Analytics, Interactive Dashboards, Exploratory Analysis, Business Intelligence
+
+-------------------

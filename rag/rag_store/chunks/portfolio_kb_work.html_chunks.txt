@@ -1,0 +1,52 @@
+
+===== CHUNK 0 =====
+## Experience
+
+### Graduate Teaching Assistantship (TA)
+Organization: Rochester Institute of Technology
+Location: Rochester, NY
+Duration: Jan 2026 – Apr 2026
+Role Highlights
+→ Supported course delivery by managing coursework, assignments, and grading for labs, projects, and seminars.
+→ Conducted lectures and covered classes during the professor’s absence, reinforcing core concepts in visual analytics and data interpretation.
+→ Mentored students on course projects and seminar presentations, providing technical guidance and evaluation alongside the professor.
+→ Assisted in coordinating course logistics, assessments, and student progress to ensure consistent academic standards.
+
+### Graduate Research Assistantship (RA)
+Organization: Rochester Institute of Technology
+Collaborater: Sungkyunkwan University
+Location: Rochester, NY
+Duration: Oct 2025 – Dec 2025
+Role Highlights
+→ Mentored and guided a research team on mitigating hallucinations in LLM-based security policy generation using promp
+
+===== CHUNK 1 =====
+2025 – Dec 2025
+Role Highlights
+→ Mentored and guided a research team on mitigating hallucinations in LLM-based security policy generation using prompt ensembling techniques.
+→ Contributed to system design by reviewing and strengthening prompt decomposition patterns to improve robustness against invalid and adversarial outputs.
+→ Reviewed research code, validated workflows, and analyzed generated policies for schema compliance and semantic correctness.
+→ Assisted in research paper writing, technical structuring, and refinement of experimental methodology and results interpretation.
+
+### AI Engineer Internship
+Company: Artificial Intelligence Risk, Inc
+Location: Connecticut, NY
+Duration: May 2025 – Aug 2025
+Role Highlights
+→ Developed and deployed AI agents for client use cases in automation and retrieval-augmented reasoning.
+→ Collaborated with and mentored a team of three junior engineers on agent development and deployment practices.
+→ Designed document classification and information
+
+===== CHUNK 2 =====
+d with and mentored a team of three junior engineers on agent development and deployment practices.
+→ Designed document classification and information retrieval pipelines for finance and banking workflows, supporting risk assessment and compliance.
+
+### Data Science Intern Internship
+Company: CodSoft
+Location: Chennai, TN
+Duration: July 2024 – Aug 2024
+Role Highlights
+→ Built Tableau dashboards and Implemented SQL queries with stored procedures to support analytics-driven projects.
+→ Leveraged Python libraries to implement real-world prediction use cases and improved efficiency through data-driven insights.
+
+-------------------

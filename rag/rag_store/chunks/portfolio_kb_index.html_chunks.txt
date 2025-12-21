@@ -1,0 +1,10 @@
+
+===== CHUNK 0 =====
+## Intro
+Name: Vetrivel Maheswaran
+NickName: Mahi
+Role: AI Engineer
+Focus: Practical AI systems, grounded LLM apps, RAG, evaluation
+Vetrivel interested in designing: Hybrid Retrieval system (RAG), evaluation driven LLM apps, RAG pipelines that cite sources, agentic workflows
+
+-------------------

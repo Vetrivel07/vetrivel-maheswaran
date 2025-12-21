@@ -1,0 +1,107 @@
+[
+  {
+    "source": "portfolio_kb",
+    "page": "index.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 0,
+    "text": "## Intro\nName: Vetrivel Maheswaran\nNickName: Mahi\nRole: AI Engineer\nFocus: Practical AI systems, grounded LLM apps, RAG, evaluation\nVetrivel interested in designing: Hybrid Retrieval system (RAG), evaluation driven LLM apps, RAG pipelines that cite sources, agentic workflows\n\n-------------------"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "about.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 0,
+    "text": "## About\nI am an AI Engineer focused on building reliable, verifiable LLM systems for real-world use cases.\nMy work centers around Hybrid RAG architectures combining dense vector retrieval with graph-based reasoning to reduce hallucinations.\nI care about systems that work in production — not demos.\nMy background spans Machine Learning, AI models, Databases, and full-stack prototyping. I enjoy turning complex research concepts into practical systems—whether that’s building scalable retrieval pipelines, visualizing large knowledge graphs, or deploying ML-powered applications.\n\nTags: AI Engineer, Machine learning, LLMs, Knowledge Graphs, Applied Research\n\n### Projects: 10+ projects\n\t(added in the next section \"Projects\")\n### Certification: 5+ certifications\n\t1. Generative AI in Action (IBM)\n\t2. ChatGPT Prompt Engineering for Developers (DeepLearningAI)\n\t3. Database Management System (Infosys Springboard)\n\t4. Python Basics for Data Science (IBM)\n\t5. Google Cloud career readiness Associate"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "about.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 1,
+    "text": "LearningAI)\n\t3. Database Management System (Infosys Springboard)\n\t4. Python Basics for Data Science (IBM)\n\t5. Google Cloud career readiness Associate Cloud Engineer track (Google Cloud)\n\n### Achievements: 5+ achievements\n\t1. International English Language Testing System (IELTS) exam\n\t2. Graduate Record Examination (GRE) exam \n\t3. Aspiring Minds Computer Adaptive Test (AMCAT) Exam\n\t4. National Level E-Quiz\n\t5. Programming Challenge in SkillRack portal\n\n### My Education:\n\t1. Masters of Science in Rochester Institute of Technology\n\t   Degree: Master's of Science\n\t   program: Information Technology and Analytics\n\t   GPA scored: 4/4\n\t   Duration: 2025 - 2026 \n\t2. Bachelor of Engineering in R.M.K. Engineering College\n\t   Degree: Bachelor of Engineering\n\t   program: Computer Science and Engineering\n\t   GPA scored: 8.9/10\n\t   Duration: 2020 - 2024\n\n-------------------"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "about.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 2,
+    "text": "4\n\n-------------------"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "projects.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 0,
+    "text": "## Projects\n### LinkedIn AI Agent (Jun 2025 - Aug 2025) [Personal project]\nDescription: Built a modular AI agent using LangChain and OpenAI to transform user ideas into structured, human-style LinkedIn posts and publish them directly via LinkedIn’s API using a clean MCP-based design.\nTech Stack: Streamlit, Python, FastAPI, OpenAI GPT Models, LangChain\nGitHub: https://github.com/Vetrivel07/linkedin-agent\nTags: Generative AI, LLM Agents, Content Automation, Prompt Engineering, API Integration, MCP Architecture\n\n### NewsBot: AI-Powered News Q&A (May 2025 - Jun 2025) [Personal project]\nDescription: Built an end-to-end AI Q&A pipeline that ingests news articles and PDFs, performs semantic search using vector embeddings, and delivers context-aware answers grounded in the original sources.\nTech Stack: Streamlit, Python, FastAPI, FAISS, OpenAI GPT Models, LangChain\nGitHub: https://github.com/Vetrivel07/NewsBot\nTags: Retrieval-Augmented Generation, Semantic Search, Document Q&A, LLMs, Vector Da"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "projects.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 1,
+    "text": "T Models, LangChain\nGitHub: https://github.com/Vetrivel07/NewsBot\nTags: Retrieval-Augmented Generation, Semantic Search, Document Q&A, LLMs, Vector Databases, Information Retrieval\n\n### AI-Powered Resume Evaluator (Apr 2025 - May 2025) [Personal project]\nDescription: Uploads a resume PDF and job description, then uses Gemini 2.5 Flash to extract content, evaluate alignment, and generate a structured report with match percentage and improvement suggestions.\nTech Stack: Streamlit, Custom CSS, Python, FastAPI, FAISS, Google Gemini Model, LangChain, python-dotenv, pdf2image, Pillow\nGitHub: https://github.com/Vetrivel07/AI-Powered-Resume-Evaluator\nTags: Resume Screening, ATS Simulation, Multimodal, LLM, Job Matching ,Evaluation Report, Prompt Engineering\n\n### Ticket Management System (Feb 2025 - Mar 2025) [Personal project]\nDescription: Built a role-based ticket management system that enforces structured workflows for service request creation, assignment, status transitions, and resolution,"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "projects.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 2,
+    "text": "a role-based ticket management system that enforces structured workflows for service request creation, assignment, status transitions, and resolution, with separate dashboards and permissions for employees, responders, and administrators.\nTech Stack: HTML, CSS, Jinja2, Python, Flask, MySQL\nGitHub: https://github.com/Vetrivel07/Ticket-Management-System\nTags: Role-Based Access, Ticketing System, Workflow Management, CRUD Operations, Web Application, Authentication\n\n### Knowledge Graph Analysis of Goodreads Comics (Nov 2025 - Dec 2025) [Academic project]\nDescription: Designed and implemented a multi-million–node Neo4j graph using an index-first, batch-based ingestion pipeline and semantically constrained Cypher queries to enable scalable, interpretable multi-hop graph analysis.\nTech Stack: \nHTML, CSS, JavaScript, D3.js (Visualization), Node.js, Neo4j (Graphh Database), Neo4j Desktop, APOC Procedures, npm\nGitHub: https://github.com/Vetrivel07/neo4j-project\nTags: Graph Databases, Neo4j, Lar"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "projects.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 3,
+    "text": "js, Neo4j (Graphh Database), Neo4j Desktop, APOC Procedures, npm\nGitHub: https://github.com/Vetrivel07/neo4j-project\nTags: Graph Databases, Neo4j, Large-Scale Data Ingestion, Cypher Queries, Knowledge Graphs, Data Modeling, Performance Optimization, Graph Visualization\n\n### Wikipedia Bias Detection (Sep 2025 - Dec 2025) [Academic project]\nDescription: Implements a transparent NLP pipeline combining TF-IDF + Logistic Regression, topic modeling, and sentiment analysis to perform full-text and paragraph-level bias detection with probability-calibrated outputs and visual explanations.\nTech Stack: HTML, CSS, Jinja2, Python, Flask, Scikit-learn (TF-IDF, Logistic Regression, LDA), NLTK (VADER), Hugging Face (weak labeling), Virtualenv\nGitHub: https://github.com/Vetrivel07/Wikipedia-Bias-Detection\nTags: NLP, Bias Detection, Explainable AI, Text Classification, Topic Modeling, Sentiment Analysis, Machine Learning\n\n### Museum Explorer (Sep 2025 - Oct 2025) [Academic project]\nDescription: Impleme"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "projects.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 4,
+    "text": "lassification, Topic Modeling, Sentiment Analysis, Machine Learning\n\n### Museum Explorer (Sep 2025 - Oct 2025) [Academic project]\nDescription: Implements a Flask–MongoDB system with 2dsphere indexing, GridFS-based image storage, and address-to-coordinate geocoding to support full-text search, proximity queries, and interactive museum exploration at scale.\nTech Stack: HTML, CSS, Jinja2, Python, Flask, MongoDB, OpenStreetMap Nominatim API, pymongo\nGitHub: https://github.com/Vetrivel07/Museum-explorer\nTags: MongoDB, NoSQL Databases, Geospatial Search, Location-Based Services, GridFS, Web Application, Data Engineering\n\n### QR Gen-Scan Portal (Oct 2024 - Nov 2024) [Personal project]\nDescription: Implements a Flask-based application that supports QR code generation from text or URLs, customizable labeling, image download, and real-time webcam scanning with a structured multi-page UI.\nTech Stack: HTML, CSS, Jinja2, Python, Flask, qrcode, OpenCV (opencv-python), pyzbar, Pillow\nGitHub: https://"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "projects.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 5,
+    "text": "canning with a structured multi-page UI.\nTech Stack: HTML, CSS, Jinja2, Python, Flask, qrcode, OpenCV (opencv-python), pyzbar, Pillow\nGitHub: https://github.com/Vetrivel07/qr-gen-scan-portal\nTags: QR Codes, Web Application, Computer Vision, Flask, Utility Tool, Image Processing\n\n### Sales Analysis Dashboard (Jun 2023) [Academic project]\nDescription: Designed a Power BI dashboard with structured data modeling and DAX-based measures to analyze revenue, profit, cost, and monthly trends across multiple regions and products.\nTech Stack: Microsoft Power BI, Kaggle, DAX, Power BI Data Model\nGitHub: https://github.com/Vetrivel07/Data-Visualization-Portfolio/tree/main/Sales-Analysis-Dashboard\nTags: Power BI, Business Intelligence, Data Visualization, Sales Analytics, Dashboard Design, Data Modeling\n\n### Data Science JobSalary Dashboard (May 2023) [Academic project]\nDescription: Built a multi-sheet Tableau dashboard that models salary data across experience, employment type, geography, company s"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "projects.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 6,
+    "text": "[Academic project]\nDescription: Built a multi-sheet Tableau dashboard that models salary data across experience, employment type, geography, company size, and job title to support comparative and trend-based analysis.\nTech Stack: Tableau, Kaggle, Tableau Calculated Fields, Parameters, Data Model\nGitHub: https://github.com/Vetrivel07/Data-Visualization-Portfolio/tree/main/DataScience-JobSalary-Insights\nTags: Data Visualization, Salary Analysis, Career Analytics, Interactive Dashboards, Exploratory Analysis, Business Intelligence\n\n-------------------"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "work.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 0,
+    "text": "## Experience\n\n### Graduate Teaching Assistantship (TA)\nOrganization: Rochester Institute of Technology\nLocation: Rochester, NY\nDuration: Jan 2026 – Apr 2026\nRole Highlights\n→ Supported course delivery by managing coursework, assignments, and grading for labs, projects, and seminars.\n→ Conducted lectures and covered classes during the professor’s absence, reinforcing core concepts in visual analytics and data interpretation.\n→ Mentored students on course projects and seminar presentations, providing technical guidance and evaluation alongside the professor.\n→ Assisted in coordinating course logistics, assessments, and student progress to ensure consistent academic standards.\n\n### Graduate Research Assistantship (RA)\nOrganization: Rochester Institute of Technology\nCollaborater: Sungkyunkwan University\nLocation: Rochester, NY\nDuration: Oct 2025 – Dec 2025\nRole Highlights\n→ Mentored and guided a research team on mitigating hallucinations in LLM-based security policy generation using promp"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "work.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 1,
+    "text": "2025 – Dec 2025\nRole Highlights\n→ Mentored and guided a research team on mitigating hallucinations in LLM-based security policy generation using prompt ensembling techniques.\n→ Contributed to system design by reviewing and strengthening prompt decomposition patterns to improve robustness against invalid and adversarial outputs.\n→ Reviewed research code, validated workflows, and analyzed generated policies for schema compliance and semantic correctness.\n→ Assisted in research paper writing, technical structuring, and refinement of experimental methodology and results interpretation.\n\n### AI Engineer Internship\nCompany: Artificial Intelligence Risk, Inc\nLocation: Connecticut, NY\nDuration: May 2025 – Aug 2025\nRole Highlights\n→ Developed and deployed AI agents for client use cases in automation and retrieval-augmented reasoning.\n→ Collaborated with and mentored a team of three junior engineers on agent development and deployment practices.\n→ Designed document classification and information"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "work.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 2,
+    "text": "d with and mentored a team of three junior engineers on agent development and deployment practices.\n→ Designed document classification and information retrieval pipelines for finance and banking workflows, supporting risk assessment and compliance.\n\n### Data Science Intern Internship\nCompany: CodSoft\nLocation: Chennai, TN\nDuration: July 2024 – Aug 2024\nRole Highlights\n→ Built Tableau dashboards and Implemented SQL queries with stored procedures to support analytics-driven projects.\n→ Leveraged Python libraries to implement real-world prediction use cases and improved efficiency through data-driven insights.\n\n-------------------"
+  },
+  {
+    "source": "portfolio_kb",
+    "page": "contact.html",
+    "path": "rag/rag_data/portfolio_kb.txt",
+    "chunk_id": 0,
+    "text": "## Contact\nLet’s talk about AI systems, RAG, or anything you’re building.\nEmail: vetrim2003@gmail.com\nLinkedIn: https://www.linkedin.com/in/vetrivel-maheswaran/\nTwitter: https://twitter.com/irtev_m_07\nGitHub: https://github.com/vetrivel07\nDiscord: https://discordapp.com/users/914083343342133248\nPinterest: https://pin.it/4igfWWDru"
+  }
+]

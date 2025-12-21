@@ -1,817 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-
-    <meta name="description" content="Welcome to my portfolio website. I am a data enthusiast and analyst with a passion for unlocking insights and driving growth through data-driven solutions."/>
-
-    <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="Vetrivel Maheswaran's Portfolio">
-    <meta itemprop="description" content="Welcome to my portfolio website. I am a data enthusiast and analyst with a passion for unlocking insights and driving growth through data-driven solutions.">
-
-    <link
-      rel="shortcut icon"
-      href="assets/images/logo/favicon(1).ico"
-      type="image/png"
-    />
-
-    <link
-      rel="preload"
-      href="assets/fonts/Mona-Sans.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-
-    <link rel="stylesheet" href="style.css"  />
-    <script src="script.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script defer type="text/javascript" src="/script.js"></script>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-
-    <title>Vetrivel Maheswaran</title>
-  </head>
-
-  <body>
- <!--------------------------------------------------
-                    About Section
- --------------------------------------------------->
-
-    <script>
-      const theme = localStorage.getItem("theme") || "dark";
-      document.body.classList.add(theme);
-    </script>
-
-    <header class="header">
-
-      <div class="menu-btn-container">
-        <div class="container">
-          <button type="button"  class="menu-btn">menu</button>
-        </div>
-      </div>
-
-      <nav class="nav hidden">
-        <ol class="nav-items">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#work">My Work</a></li>
-          <li class="nav-item"><a href="#blog">Internship</a></li>
-          <li class="nav-item"><a href="#skills">My Skills</a></li>
-          <li class="nav-item"><a href="#contact" data-focused="last-focused">Contact</a></li>
-        </ol>
-      </nav>
-
-      <div class="header-container">
-        <div class="header-textbox">
-          <h1>I'm <span class="name-highlight">Vetrivel Maheswaran</span></h1>
-          <h2>I am <span class="typing" ></span></h2>
-          <p class="header-text"> </p>
-          <div class="header-btns">
-            <a href="#contact" class="btn btn-cta">Hire me</a>
-            <a href="assets/images/Vetrivel_Maheswaran_CV.pdf" target="_blank" class="btn btn-secondary" download="Vetrivel_Maheswaran_CV">Resume</a>
-          </div>
-        </div>
-
-        <div class="header-image">
-          <img src="assets/images/logo/vetrivel.png" alt="Vetrivel Maheswaran"/>
-        </div>
-      </div>
-    </header>
-
-<main>
-
-<!--------------------------------------------------
-                    Client Section
- --------------------------------------------------->
-
-      <section class="client">
-        <div class="container">
-          <h2 class="h2">Tool kits</h2>
-          <div class="logos">
-           
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/fluency/48/python.png"
-                alt="Python"
-                class="logo hide to-top"
-              />
-
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
-                alt="Java"
-                class="logo"
-              />
-
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/fluency/48/r-project.png"
-                alt="R"
-                class="logo hide to-bottom"
-              />
-
-              </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/color/48/mysql-logo.png"
-                alt="MySql"
-                class="logo hide to-top"
-              />
-
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/color/48/tableau-software.png"
-                alt="Tableau"
-                class="logo"
-              />
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/fluency/48/power-bi-2021.png"
-                alt="PowerBI"
-                class="logo hide to-bottom"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/color/48/numpy.png"
-                alt="Numpy"
-                class="logo hide to-top"
-              /><img
-                loading="lazy"
-                src="https://img.icons8.com/color/48/pandas.png"
-                alt="Pandas"
-                class="logo"
-              /><img
-                loading="lazy"
-                src="https://img.icons8.com/nolan/64/flask.png"
-                alt="Flask"
-                class="logo hide to-bottom"
-              />
-            </div>
-            <div class="logo-group">
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/color/48/git.png"
-                alt="Git"
-                class="logo hide to-top"
-              />
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/fluency/48/visual-studio-code-2019.png"
-                alt="VS Code"
-                class="logo"
-              />
-              <img
-                loading="lazy"
-                src="https://img.icons8.com/fluency/48/pycharm.png"
-                alt="PyCharm"
-                class="logo hide to-bottom"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-<!--------------------------------------------------
-                    Internship Section
- --------------------------------------------------->
-
-      <section class="article">
-        <div class="container">
-          <h2 class="h2" id="blog"> Internship's </h2>
-          <div class="article-boxes">
-            
-            <article class="article-box-intern">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h4">AI Engineer Intern</h3>
-                  <span><i>Artificial Intelligence Risk, Inc. - Connecticut, NY</i></span>
-                  <p class="article-text">
-                    Developed and deployed AI agents for client use cases in automation and retrieval-augmented reasoning.
-                    Collaborated with and mentored junior teammates of 3 members on building AI Agents and deployment workflows.
-                    Worked with AI solutions for finance and banking use cases, focusing on document classification and information retrieval
-                    to support risk assessment and compliance workflows.
-                  </p>
-                </div>
-                <div class="article-info">
-                 
-                  <span class="year"> May 2025 - Aug 2025</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="article-box-intern">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h4">Data Science Intern</h3>
-                  <span><i>CodSoft - Chennai, India</i></span>
-                  <p class="article-text">
-                     Built Tableau dashboards and Implemented SQL queries with stored procedures to support analytics-driven projects
-                     Leveraged Python libraries to implement real-world prediction use cases and improved efficiency through data-driven insights
-                  </p>
-                </div>
-                <div class="article-info">
-                 
-                  <span class="year"> June 2024 - Aug 2024</span>
-                </div>
-              </div>
-            </article>
-
-          </div>
-        </div>
-      </section>
-
-
-<!--------------------------------------------------
-                    Work Section
- --------------------------------------------------->
-
-      <section class="work">
-        <div class="container">
-          <h2 class="h2" id="work">Project's</h2>
-          <div class="work-boxes">
-
-            <!-- Project 7 -->
-
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3"> Linkedin AI Agent</h3>
-                <p class="work-text">
-                This project is a powerful and modular AI agent system that generates and posts professional LinkedIn content using 
-                OpenAI and LangChain, built with a clean MCP architecture. It takes an input idea from the user, transforms it into a
-                 high-quality LinkedIn post using a custom prompt template, and posts it directly to the user's LinkedIn profile using LinkedIn’s API.
-                </p>
-                <ol class="work-technologies">
-                  <ul>&#128278; Artificial Intelligence, OpenAI, LangChain, Python, Streamlit</ul>
-                </ol>
-
-                <div class="work-links">
-                  <a href="https://github.com/Vetrivel07/linkedin-agent" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="https://github.com/Vetrivel07/linkedin-agent" target="_blank" rel="noopener" title="Source code" >
-                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
-                  </a>
-                </div>
-              </div>
-
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/project7.png" alt="LinkedIn AI Agent"/>
-              </picture>
-            </div>
-
-            <!-- Project 6 -->
-
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">NewsBot: AI-Powered News Q&A</h3>
-                <p class="work-text">
-                AI-driven content analysis tool that enables users to extract insights from news articles and documents. 
-                Built with Streamlit, LangChain, and OpenAI, it combines real-time document parsing, semantic search with FAISS, and 
-                natural language understanding to deliver fast, accurate, and source-backed responses.  
-                </p>
-                <ol class="work-technologies">
-                  <ul>&#128278; Artificial Intelligence, OpenAI, LangChain, Python, Streamlit</ul>
-                </ol>
-
-                <div class="work-links">
-                  <a href="https://github.com/Vetrivel07/NewsBot" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="https://github.com/Vetrivel07/NewsBot" target="_blank" rel="noopener" title="Source code" >
-                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
-                  </a>
-                </div>
-              </div>
-
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/project6.png" alt="NewsBot"/>
-              </picture>
-            </div>
-            
-            <!-- Project 5 -->
-
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">AI-Powered Resume Evaluator</h3>
-                <p class="work-text">
-                This project analyzes how well a resume aligns with a given job description. Leveraging natural language processing (NLP), 
-                semantic embeddings, and dynamic keyword extraction, it simulates the behavior of modern ATS platforms to deliver a comprehensive match score. 
-                </p>
-                <ol class="work-technologies">
-                  <ul>&#128278; Artificial Intelligence, Machine Learning, GenAI, LangChain, Python, Streamlit</ul>
-                </ol>
-
-                <div class="work-links">
-                  <a href="https://github.com/Vetrivel07/AI-Powered-Resume-Evaluator" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="https://github.com/Vetrivel07/AI-Powered-Resume-Evaluator" target="_blank" rel="noopener" title="Source code" >
-                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
-                  </a>
-                </div>
-              </div>
-
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/project5.png" alt="Resume AI-Powered-Resume-Evaluator"/>
-              </picture>
-            </div>
-
-            <!-- Project 4 -->
-
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">Ticket Management System</h3>
-                <p class="work-text">
-                  A role-based web application built with Flask and MySQL that enables employees to submit tickets 
-                  and responders to manage, update, and complete service requests. The system includes dashboards, 
-                  login/register functionality, ticket status tracking, and location/address-based ticket creation.
-                </p>
-                <ol class="work-technologies">
-                  <ul>&#128278; Python, Flask, MySQL, HTML5, CSS3</ul>
-                </ol>
-                <div class="work-links">
-                  <a href="https://github.com/Vetrivel07/Ticket-Management-System" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="https://github.com/Vetrivel07/Ticket-Management-System" target="_blank" rel="noopener" title="Source code" >
-                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
-                  </a>
-                </div>
-              </div>
-
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/project4.png" alt="Ticket-Management"/>
-              </picture>
-            </div>
-
-            <!-- Project 1 -->
-
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">Smart Detection of Car Defective Parts with Recommendations</h3>
-                <p class="work-text">
-                  This application was built on Flask web framework,which utilizes AI-driven machine learning algorithms 
-                to accurately identify and assess vehicle damages. This project streamlines the inspection process for enhanced efficiency and user experience.
-                </p>
-                <ol class="work-technologies">
-                  <ul>&#128278; Python, Machine Learning, Flask, HTML5, CSS3, JavaScript</ul>
-                </ol>
-
-                <div class="work-links">
-                  <a href="https://github.com/Vetrivel07/Smart-Detection-of-Car-Defective-parts-with-Recommendations" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="https://github.com/Vetrivel07/Smart-Detection-of-Car-Defective-parts-with-Recommendations" target="_blank" rel="noopener" title="Source code" >
-                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
-                  </a>
-                </div>
-              </div>
-
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/project1.png" alt="Car-Detection"/>
-              </picture>
-            </div>
-
-            <!-- Project 3 -->
-
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">Sales Prediction using Python</h3>
-                <p class="work-text">
-                  Developed a Python-based sales forecasting model using machine learning and statistical techniques
-                   to predict future sales, informing business decisions on inventory, pricing, and resources
-                </p>
-                <ol class="work-technologies">
-                  <ul>&#128278; Jupyter Notebook, Pandas, NumPy, and scikit-learn</ul>
-                </ol>
-                <div class="work-links">
-                  <a href="https://github.com/Vetrivel07/CodSoft_Sales-Prediction-using-Python" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="https://github.com/Vetrivel07/CodSoft_Sales-Prediction-using-Python" target="_blank" rel="noopener" title="Source code" >
-                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
-                  </a>
-                </div>
-              </div>
-
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/project3.jpeg" alt="Sales-Prediction"/>
-              </picture>
-            </div>
-
-            <!-- Project 2 -->
-
-            <div class="work-box">
-              <div class="work-textbox">
-                <h3 class="h3">Fertilizer Recommendation System for Disease Prediction</h3>
-                <p class="work-text">
-                  AI-powered Fertilizer Recommendation System utilize Machine learning algorithms and data analysis to analyzes soil characteristics, crop type, and weather conditions 
-                  to provide personalized fertilizer suggestions.
-                </p>
-                <ol class="work-technologies">
-                  <ul>&#128278; Python, Machine Leanring, HTML5, CSS3, JavaScript</ul>
-                </ol>
-                <div class="work-links">
-                  <a href="https://github.com/Vetrivel07/20IT928-PRIEE-C6" target="_blank" rel="noopener" class="link">Explore this project</a>
-                  <a href="https://github.com/Vetrivel07/20IT928-PRIEE-C6" target="_blank" rel="noopener" title="Source code" >
-                    <img src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub" loading="lazy"/>
-                  </a>
-                </div>
-              </div>
-              <picture class="work-img">
-                <img loading="lazy" src="assets/images/work/project2.jpg" alt="Fertilizer-Recommendation"/>
-              </picture>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-    <!-- Other Notable projects in Tableau, PowerBI, and more... -->
-
-      <section class="article">
-        <div class="container">
-          <h2 class="h2" id="blog">Other Notable Work's</h2>
-          <div class="article-boxes">
-            <!-- Project 1 -->
-            <article class="article-box featured-article">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h3">
-                    DataScience JobSalary Insights
-                  </h3>
-                  <p class="article-text">
-                    This interactive Tableau dashboard provides insights on data science salaries, 
-                    helping professionals, employers, and educators make informed decisions on salary and 
-                    career development
-                  </p>
-                </div>
-                <div class="article-info">
-                  <a href="https://github.com/Vetrivel07/Tableau-Projects" class="link" target="_blank" rel="noopener"
-                    >Continue reading</a>
-                  <a href="https://github.com/Vetrivel07/Tableau-Projects" target="_blank" rel="noopener" title="Source code" ><img src="https://img.icons8.com/ios-filled/50/github.png"  alt="GitHub" loading="lazy"></a>
-                  <a href="https://public.tableau.com/views/DataScienceJobssalariesdashboard_17422691806860/DataScienceJobssalariesdashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"  target="_blank" rel="noopener" title="Public viz" >
-                    <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau"></a>
-                  
-                </div>
-              </div>
-              <picture class="article-illustration">
-                <img src="assets/images/work/tableau1.png" alt="Tableau-Project" loading="lazy" />
-              </picture>
-            </article>
-
-            <!-- Project 2 -->
-            <article class="article-box featured-article">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h3">
-                    Economic visualization across countries
-                  </h3>
-                  <p class="article-text">
-                    This Tableau project visualizes economic indicators across countries, offering insights 
-                    into GDP, inflation, and more, to inform decision-making and economic understanding
-                  </p>
-                </div>
-                <div class="article-info">
-                  <a href="https://github.com/Vetrivel07/Tableau-Projects" class="link" target="_blank" rel="noopener"
-                  >Continue reading</a>
-                  <a href="https://github.com/Vetrivel07/Tableau-Projects"  target="_blank" rel="noopener" title="Source code" ><img src="https://img.icons8.com/ios-filled/50/github.png"  alt="GitHub" loading="lazy"></a>
-                  <a href="https://public.tableau.com/views/DataScienceJobssalariesdashboard_17422691806860/DataScienceJobssalariesdashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener" title="Public viz">
-                    <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau"></a>
-                  
-                  
-                </div>
-              </div>
-              <picture class="article-illustration">
-                <img src="assets/images/work/Tableau2.png" alt="Tableau-Project" loading="lazy" />
-              </picture>
-            </article>
-
-
-             <!-- Project 3 -->
-             <article class="article-box featured-article">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h3">
-                    Sales Analysis Dashboard
-                  </h3>
-                  <p class="article-text">
-                    This is a Power BI project focused on sales analysis across multiple countries, providing key insights into revenue and profit trends.
-                    It showcases how data visualization can drive business decisions and optimize sales strategies
-                  </p>
-                </div>
-                <div class="article-info">
-                  <a href="https://github.com/Vetrivel07/PowerBI-Projects" class="link" target="_blank" rel="noopener"
-                  >Continue reading</a>
-                  <a href="https://github.com/Vetrivel07/PowerBI-Projects"  target="_blank" rel="noopener" title="Source code" ><img src="https://img.icons8.com/ios-filled/50/github.png"  alt="GitHub" loading="lazy"></a>
-                  <a href="" target="_blank" rel="noopener" title="Public viz"><img src="https://img.icons8.com/fluency/48/power-bi-2021.png" alt="PowerBI"></a>
-                  
-                  
-                </div>
-              </div>
-              <picture class="article-illustration">
-                <img src="assets/images/work/PowerBI1.png" alt="PowerBI-Project" loading="lazy" />
-              </picture>
-            </article>
-
-
-            <!-- <article class="article-box">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h4">JavaScript Default Function Parameters.</h3>
-                  <p class="article-text">
-                    In JavaScript when we call a function which expects some
-                    data to be passed in if you call that without passing
-                  </p>
-                </div>
-                <div class="article-info">
-                  <a href="#" class="link" target="_blank" rel="noopener"
-                    >Continue reading</a
-                  >
-                  <span class="reaction-count">
-                    <img
-                      src="#"
-                      alt="heart"
-                      loading="lazy"
-                    />
-                    47
-                  </span>
-                </div>
-              </div>
-            </article>
-            <article class="article-box">
-              <div class="article-textbox">
-                <div>
-                  <h3 class="h4">
-                    Free Open-source portfolio template for developers ✨
-                  </h3>
-                  <p class="article-text">
-                    A beautiful, minimal and accessible portfolio template for
-                    Developers which is completely free and Open Source.
-                  </p>
-                </div>
-                <div class="article-info">
-                  <a href="#" class="link" target="_blank" rel="noopener"
-                    >Continue reading</a
-                  >
-                  <span class="reaction-count">
-                    <img
-                      src="#"
-                      alt="heart"
-                      loading="lazy"
-                    />
-                    177
-                  </span>
-                </div>
-              </div>
-            </article> -->
-            
-          </div>
-        </div>
-      </section>
-
-    
-<!--------------------------------------------------
-                    Skills Section
- --------------------------------------------------->
-
-      <section class="skills">
-        <div class="container">
-          <h2 class="h2" id="skills">My Toolkit</h2>
-          <div class="skills-imgs">
-                <img src="https://img.icons8.com/fluency/48/python.png" alt="Python" class="skills-img" loading="lazy" title="Python">
-                <img src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="Java" class="skills-img" loading="lazy" title="Java">
-                 <img src="https://img.icons8.com/fluency/48/r-project.png" alt="R" class="skills-img" loading="lazy" title="R">
-                 <img src="https://img.icons8.com/fluency/48/html-5.png" alt="HTML5" class="skills-img" loading="lazy" title="HTML5">
-                 <img src="https://img.icons8.com/fluency/48/css3.png" alt="CSS3" class="skills-img" loading="lazy" title="CSS3">
-                 <img src="https://img.icons8.com/color/48/tableau-software.png" alt="Tableau" class="skills-img" loading="lazy" title="Tableau">
-                 <img src="https://img.icons8.com/fluency/48/power-bi-2021.png" alt="PowerBI" class="skills-img" loading="lazy" title="PowerBI">
-                 <img src="https://img.icons8.com/color/48/mysql-logo.png" alt="MySQL" class="skills-img" loading="lazy" title="MySQL">
-                 <img src="https://img.icons8.com/color/48/git.png" alt="Git" class="skills-img" loading="lazy" title="Git">
-                 <img src="https://img.icons8.com/nolan/64/flask.png" alt="Flask" class="skills-img" loading="lazy" title="Flask">
-                 <img src="https://img.icons8.com/color/48/pandas.png" alt="Pandas" class="skills-img" loading="lazy" title="Pandas">
-                 <img src="https://img.icons8.com/color/48/numpy.png" alt="Numpy" class="skills-img" loading="lazy" title="Numpy">
-                 <img src="https://img.icons8.com/color/48/windows-10.png" alt="Windows" class="skills-img" loading="lazy" title="Windows">
-                 <img src="https://img.icons8.com/color/48/linux--v1.png" alt="Linux" class="skills-img" loading="lazy" title="Linux">
-                 <img src="https://img.icons8.com/color/48/office-365.png" alt="office-365" class="skills-img" loading="lazy" title="office-365">
-                 <img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" alt="MSExcel" class="skills-img" loading="lazy" title="MS Excel">
-                 <img src="https://img.icons8.com/fluency/48/visual-studio-code-2019.png" alt="VS code" class="skills-img" loading="lazy" title="VS code">
-                 <img src="https://img.icons8.com/fluency/48/pycharm.png" alt="Pycharm" class="skills-img" loading="lazy" title="Pycharm">
-
-            </figure>
-          </div>
-        </div>
-      </section>
-
-  
-<!--------------------------------------------------
-                    Testimonials Section
- --------------------------------------------------->
-
-       <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
-<!--
-      <section>
-        <h2 class="h2">Testimonials</h2>
-        <div class="container">
-
-          <ol class="testimonials">
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-               content
-               <a href="#" class="popup-trigger" data-img="https://via.placeholder.com/600x400">View Image</a>
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src=""
-                  alt=""
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Name</h3>
-                  <p class="testimonial-author-job">role@organization</p>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-                content
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src=""
-                  alt=""
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Name</h3>
-                  <p class="testimonial-author-job">role@organization</p>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-                content
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src=""
-                  alt=""
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Name</h3>
-                  <p class="testimonial-author-job">role@organization</p>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-               content
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src=""
-                  alt=""
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Name</h3>
-                  <p class="testimonial-author-job">role@organization</p>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-              content
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src=""
-                  alt=""
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Name</h3>
-                  <p class="testimonial-author-job">role@organization</p>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-                content
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src=""
-                  alt=""
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Name</h3>
-                  <p class="testimonial-author-job">role@organization</p>
-                </figcaption>
-              </figure>
-            </li>
-          </ol>
-        </div>
-      </section> 
-      <div id="imagePopup" class="popup-modal">
-        <span class="popup-close" id="popupClose">&times;</span>
-        <img class="popup-content" id="popupImage" src="/assets/images/hero-bg-light.webp" alt="Popup Image">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vetrivel Maheswaran</title>
+
+  <link rel="icon" href="assets/icons/favicon.png" type="image/x-icon">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="static/styles.css" />
+</head>
+<body>
+
+  <!-- Background FX -->
+  <div class="bgfx" aria-hidden="true">
+    <div class="photoBg"></div>
+    <canvas id="starfield"></canvas>
+    <canvas id="binarySmoke"></canvas>
+    <div class="blob one"></div>
+    <div class="blob two"></div>
+    <div class="cursorGlow" id="cursorGlow"></div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="glass">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="logo"><img src="assets/icons/favicon.png" alt="MAHI AI Logo" /></div>
+        <div>MAHI <span>AI</span></div>
       </div>
       
-    -->      
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
 
-
-<!--------------------------------------------------
-                    Contact Section
- --------------------------------------------------->
-
-      <section class="contact">
-        <div class="container">
-          <h2 class="sub-text" id="contact">Don&apos;t be a Stranger!</h2>
-          <h2 class="h2" id="contact">Let&apos;s connect</h2>
-          
-
-          
-          <div class="contact-content">
-            <div class="contact-textbox">
-              <strong href="#" class="hire-alert">
-                <span class="indicator"></span>
-                Available for hire
-              </strong>
-              <p class="contact-text">
-                As a data enthusiast and analyst with a passion for unlocking insights and driving growth through data-driven solutions. 
-                With expertise in data analysis, interpretation, and machine learning, I help businesses inform decision-making, fuel innovation, 
-                and stay ahead of the curve. 
-              </p>
-              <img
-                src="assets/images/logo/signature.png"
-                alt="Vetrivel Maheswaran"
-                class="signatures"
-                loading="lazy"
-              />
-            </div>
-            <form action="#" class="contact-form" netlify>
-                <div>
-                  <h4>Think we&apos;d be a fantastic fit!</h4>
-
-                  <p>
-                    Shoot me an Email me to explore potential collaboration opportunities and let's make something incredible happen
-                  </p>
-
-                  <div class="contact-button-wrapper">
-                    <a href="mailto:vetrim2003@gmail.com" target="_blank" class="btn contact-btn">Drop a Message</a>
-                  </div>              
-
-                </div>
-              </form>
-          </div>
-        </div>
-      </section>
-    </main>
-
-
-<!--------------------------------------------------
-                    Footer Section
- --------------------------------------------------->
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <nav>
-            <ol class="footer-links">
-              
-              <li class="footer-link">
-                <a title="GitHub" href="mailto:vetrim2003@gmail.com" target="_blank" rel="noopener">
-                  <img loading="lazy" src="https://img.icons8.com/ios-filled/50/gmail-new.png" alt="GitHub"/></a>
-              </li>
-              <li class="footer-link">
-                <a title="GitHub" href="https://github.com/Vetrivel07" target="_blank" rel="noopener">
-                  <img loading="lazy" src="https://img.icons8.com/ios-filled/50/github.png" alt="GitHub"/></a>
-              </li>
-              <li class="footer-link">
-                <a title="GitHub" href="https://www.linkedin.com/in/vetrivel-maheswaran/" target="_blank" rel="noopener">
-                  <img loading="lazy" src="https://img.icons8.com/metro/26/linkedin.png" alt="Linkedin"/></a>
-              </li>
-              <li class="footer-link">
-                <a title="GitHub" href="https://twitter.com/irtev_m_07" target="_blank" rel="noopener">
-                  <img loading="lazy" src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="Twitter"/></a>
-              </li>
-              <li class="footer-link">
-                <a title="GitHub" href="https://discordapp.com/users/914083343342133248" target="_blank" rel="noopener">
-                  <img loading="lazy" src="https://img.icons8.com/fluency-systems-filled/48/discord-logo.png" alt="Discord"/></a>
-              </li>
-            </ol>
-          </nav>
-          <p class="footer-text">
-            &copy; <span>2024</span> - Designed & developed with Passion by <a target="_blank" rel="noopener" href="https://github.com/Vetrivel07">Vetrivel Maheswaran.</a>
-          </p>
-          <label class="theme-switch" for="theme-switch">
-            <span>Dark Theme</span>
-            <input type="checkbox" id="theme-switch" role="switch"/>
-          </label>
-        </div>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Project</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <div class="kicker reveal"><span class="kdot"></span><span>AI Engineer</span></div>
+
+      <h1 class="reveal"><span class="heroName">Vetrivel Maheswaran</span> — Building <span>Practical AI</span><br/>Systems that <span>Don’t Hallucinate</span></h1>
+
+      <!-- <div class="heroCaption reveal">
+        I build grounded LLM applications using Hybrid RAG (FAISS + Neo4j), evaluation loops, and production-ready APIs.
+      </div> -->
+
+      <div class="typewrap reveal">
+        I design <span class="typed" id="typed"></span><span class="caret"></span>
+      </div>
+
+      <!-- Prompt-style glass box -->
+      <div class="promptBox glass reveal">
+        <div class="promptTop">
+          <div class="pill"><i class="fa-solid fa-wand-magic-sparkles"></i> Try AI to explore about me</div>
+        </div>
+        <div class="promptRow">
+          <textarea class="promptInput" id="promptInput" placeholder="Start chatting with my AI assistant."></textarea>
+          <button class="promptBtn" id="promptBtn"><i class="fa-solid fa-play"></i> Run</button>
+        </div>
+        <div class="promptOut" id="promptOut"></div>
+      </div>
+
+      <!-- Chat Drawer (left side) -->
+      <div class="chatOverlay" id="chatOverlay" aria-hidden="true"></div>
+
+      <aside class="chatDrawer glass" id="chatDrawer" aria-hidden="true">
+        <div class="chatHeader">
+          <div class="chatTitle">
+            <div class="dotLive"></div>
+            <div>
+              <div class="chatName">MAHI AI</div>
+              <div class="chatSub">My AI assistant is here to help!</div>
+            </div>
+          </div>
+          <button class="chatClose" id="chatClose" aria-label="Close chat">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <div class="chatBody" id="chatBody"></div>
+
+        <div class="chatFooter">
+          <textarea id="chatInput" class="chatInput" placeholder="Type a message..."></textarea>
+          <button id="chatSend" class="chatSend">
+            <i class="fa-solid fa-paper-plane"></i>
+            Send
+          </button>
+        </div>
+      </aside>
+    </div>
+
+    <div class="heroPhotoWrap">
+      <div class="heroPhoto reveal" aria-label="Profile photo"></div>
+    </div>
+  </section>
+
+  <!-- Script -->
+  <script src="static/script.js" defer></script>
+  <script type="module" src="static/chatbot.js"></script>
+</body>
 </html>

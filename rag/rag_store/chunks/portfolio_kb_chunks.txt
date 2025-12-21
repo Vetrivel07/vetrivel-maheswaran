@@ -1,0 +1,237 @@
+
+===== CHUNK 0 =====
+# PORTFOLIO KB
+
+## Intro
+Name: Vetrivel Maheswaran
+NickName: Mahi
+Role: AI Engineer
+Focus: Practical AI systems, grounded LLM apps, RAG, evaluation
+Vetrivel interested in designing: Hybrid Retrieval system (RAG), evaluation driven LLM apps, RAG pipelines that cite sources, agentic workflows
+
+-------------------
+
+## About
+I am an AI Engineer focused on building reliable, verifiable LLM systems for real-world use cases.
+My work centers around Hybrid RAG architectures combining dense vector retrieval with graph-based reasoning to reduce hallucinations.
+I care about systems that work in production — not demos.
+My background spans Machine Learning, AI models, Databases, and full-stack prototyping. I enjoy turning complex research concepts into practical systems—whether that’s building scalable retrieval pipelines, visualizing large knowledge graphs, or deploying ML-powered applications.
+
+Tags: AI Engineer, Machine learning, LLMs, Knowledge Graphs, Applied Research
+
+### Projects: 10+ project
+
+===== CHUNK 1 =====
+raphs, or deploying ML-powered applications.
+
+Tags: AI Engineer, Machine learning, LLMs, Knowledge Graphs, Applied Research
+
+### Projects: 10+ projects
+	(added in the next section "Projects")
+### Certification: 5+ certifications
+	1. Generative AI in Action (IBM)
+	2. ChatGPT Prompt Engineering for Developers (DeepLearningAI)
+	3. Database Management System (Infosys Springboard)
+	4. Python Basics for Data Science (IBM)
+	5. Google Cloud career readiness Associate Cloud Engineer track (Google Cloud)
+
+### Achievements: 5+ achievements
+	1. International English Language Testing System (IELTS) exam
+	2. Graduate Record Examination (GRE) exam 
+	3. Aspiring Minds Computer Adaptive Test (AMCAT) Exam
+	4. National Level E-Quiz
+	5. Programming Challenge in SkillRack portal
+
+### My Education:
+	1. Masters of Science in Rochester Institute of Technology
+	   Degree: Master's of Science
+	   program: Information Technology and Analytics
+	   GPA scored: 4/4
+	   Duration: 2025 - 2026 
+	2. Bachelor of Enginee
+
+===== CHUNK 2 =====
+Degree: Master's of Science
+	   program: Information Technology and Analytics
+	   GPA scored: 4/4
+	   Duration: 2025 - 2026 
+	2. Bachelor of Engineering in R.M.K. Engineering College
+	   Degree: Bachelor of Engineering
+	   program: Computer Science and Engineering
+	   GPA scored: 8.9/10
+	   Duration: 2020 - 2024
+
+-------------------
+
+## Projects
+### LinkedIn AI Agent (Jun 2025 - Aug 2025) [Personal project]
+Description: Built a modular AI agent using LangChain and OpenAI to transform user ideas into structured, human-style LinkedIn posts and publish them directly via LinkedIn’s API using a clean MCP-based design.
+Tech Stack: Streamlit, Python, FastAPI, OpenAI GPT Models, LangChain
+GitHub: https://github.com/Vetrivel07/linkedin-agent
+Tags: Generative AI, LLM Agents, Content Automation, Prompt Engineering, API Integration, MCP Architecture
+
+### NewsBot: AI-Powered News Q&A (May 2025 - Jun 2025) [Personal project]
+Description: Built an end-to-end AI Q&A pipeline that ingests news articl
+
+===== CHUNK 3 =====
+e
+
+### NewsBot: AI-Powered News Q&A (May 2025 - Jun 2025) [Personal project]
+Description: Built an end-to-end AI Q&A pipeline that ingests news articles and PDFs, performs semantic search using vector embeddings, and delivers context-aware answers grounded in the original sources.
+Tech Stack: Streamlit, Python, FastAPI, FAISS, OpenAI GPT Models, LangChain
+GitHub: https://github.com/Vetrivel07/NewsBot
+Tags: Retrieval-Augmented Generation, Semantic Search, Document Q&A, LLMs, Vector Databases, Information Retrieval
+
+### AI-Powered Resume Evaluator (Apr 2025 - May 2025) [Personal project]
+Description: Uploads a resume PDF and job description, then uses Gemini 2.5 Flash to extract content, evaluate alignment, and generate a structured report with match percentage and improvement suggestions.
+Tech Stack: Streamlit, Custom CSS, Python, FastAPI, FAISS, Google Gemini Model, LangChain, python-dotenv, pdf2image, Pillow
+GitHub: https://github.com/Vetrivel07/AI-Powered-Resume-Evaluator
+Tags: Resum
+
+===== CHUNK 4 =====
+FAISS, Google Gemini Model, LangChain, python-dotenv, pdf2image, Pillow
+GitHub: https://github.com/Vetrivel07/AI-Powered-Resume-Evaluator
+Tags: Resume Screening, ATS Simulation, Multimodal, LLM, Job Matching ,Evaluation Report, Prompt Engineering
+
+### Ticket Management System (Feb 2025 - Mar 2025) [Personal project]
+Description: Built a role-based ticket management system that enforces structured workflows for service request creation, assignment, status transitions, and resolution, with separate dashboards and permissions for employees, responders, and administrators.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, MySQL
+GitHub: https://github.com/Vetrivel07/Ticket-Management-System
+Tags: Role-Based Access, Ticketing System, Workflow Management, CRUD Operations, Web Application, Authentication
+
+### Knowledge Graph Analysis of Goodreads Comics (Nov 2025 - Dec 2025) [Academic project]
+Description: Designed and implemented a multi-million–node Neo4j graph using an index-first, batch-based
+
+===== CHUNK 5 =====
+mics (Nov 2025 - Dec 2025) [Academic project]
+Description: Designed and implemented a multi-million–node Neo4j graph using an index-first, batch-based ingestion pipeline and semantically constrained Cypher queries to enable scalable, interpretable multi-hop graph analysis.
+Tech Stack: 
+HTML, CSS, JavaScript, D3.js (Visualization), Node.js, Neo4j (Graphh Database), Neo4j Desktop, APOC Procedures, npm
+GitHub: https://github.com/Vetrivel07/neo4j-project
+Tags: Graph Databases, Neo4j, Large-Scale Data Ingestion, Cypher Queries, Knowledge Graphs, Data Modeling, Performance Optimization, Graph Visualization
+
+### Wikipedia Bias Detection (Sep 2025 - Dec 2025) [Academic project]
+Description: Implements a transparent NLP pipeline combining TF-IDF + Logistic Regression, topic modeling, and sentiment analysis to perform full-text and paragraph-level bias detection with probability-calibrated outputs and visual explanations.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, Scikit-learn (TF-IDF, Logist
+
+===== CHUNK 6 =====
+bias detection with probability-calibrated outputs and visual explanations.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, Scikit-learn (TF-IDF, Logistic Regression, LDA), NLTK (VADER), Hugging Face (weak labeling), Virtualenv
+GitHub: https://github.com/Vetrivel07/Wikipedia-Bias-Detection
+Tags: NLP, Bias Detection, Explainable AI, Text Classification, Topic Modeling, Sentiment Analysis, Machine Learning
+
+### Museum Explorer (Sep 2025 - Oct 2025) [Academic project]
+Description: Implements a Flask–MongoDB system with 2dsphere indexing, GridFS-based image storage, and address-to-coordinate geocoding to support full-text search, proximity queries, and interactive museum exploration at scale.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, MongoDB, OpenStreetMap Nominatim API, pymongo
+GitHub: https://github.com/Vetrivel07/Museum-explorer
+Tags: MongoDB, NoSQL Databases, Geospatial Search, Location-Based Services, GridFS, Web Application, Data Engineering
+
+### QR Gen-Scan Portal (Oct 2024 - Nov
+
+===== CHUNK 7 =====
+ngoDB, NoSQL Databases, Geospatial Search, Location-Based Services, GridFS, Web Application, Data Engineering
+
+### QR Gen-Scan Portal (Oct 2024 - Nov 2024) [Personal project]
+Description: Implements a Flask-based application that supports QR code generation from text or URLs, customizable labeling, image download, and real-time webcam scanning with a structured multi-page UI.
+Tech Stack: HTML, CSS, Jinja2, Python, Flask, qrcode, OpenCV (opencv-python), pyzbar, Pillow
+GitHub: https://github.com/Vetrivel07/qr-gen-scan-portal
+Tags: QR Codes, Web Application, Computer Vision, Flask, Utility Tool, Image Processing
+
+### Sales Analysis Dashboard (Jun 2023) [Academic project]
+Description: Designed a Power BI dashboard with structured data modeling and DAX-based measures to analyze revenue, profit, cost, and monthly trends across multiple regions and products.
+Tech Stack: Microsoft Power BI, Kaggle, DAX, Power BI Data Model
+GitHub: https://github.com/Vetrivel07/Data-Visualization-Portfolio/tree
+
+===== CHUNK 8 =====
+and products.
+Tech Stack: Microsoft Power BI, Kaggle, DAX, Power BI Data Model
+GitHub: https://github.com/Vetrivel07/Data-Visualization-Portfolio/tree/main/Sales-Analysis-Dashboard
+Tags: Power BI, Business Intelligence, Data Visualization, Sales Analytics, Dashboard Design, Data Modeling
+
+### Data Science JobSalary Dashboard (May 2023) [Academic project]
+Description: Built a multi-sheet Tableau dashboard that models salary data across experience, employment type, geography, company size, and job title to support comparative and trend-based analysis.
+Tech Stack: Tableau, Kaggle, Tableau Calculated Fields, Parameters, Data Model
+GitHub: https://github.com/Vetrivel07/Data-Visualization-Portfolio/tree/main/DataScience-JobSalary-Insights
+Tags: Data Visualization, Salary Analysis, Career Analytics, Interactive Dashboards, Exploratory Analysis, Business Intelligence
+
+-------------------
+
+## Experience
+
+### Graduate Teaching Assistantship (TA)
+Organization: Rochester Institute of Technology
+Lo
+
+===== CHUNK 9 =====
+Business Intelligence
+
+-------------------
+
+## Experience
+
+### Graduate Teaching Assistantship (TA)
+Organization: Rochester Institute of Technology
+Location: Rochester, NY
+Duration: Jan 2026 – Apr 2026
+Role Highlights
+→ Supported course delivery by managing coursework, assignments, and grading for labs, projects, and seminars.
+→ Conducted lectures and covered classes during the professor’s absence, reinforcing core concepts in visual analytics and data interpretation.
+→ Mentored students on course projects and seminar presentations, providing technical guidance and evaluation alongside the professor.
+→ Assisted in coordinating course logistics, assessments, and student progress to ensure consistent academic standards.
+
+### Graduate Research Assistantship (RA)
+Organization: Rochester Institute of Technology
+Collaborater: Sungkyunkwan University
+Location: Rochester, NY
+Duration: Oct 2025 – Dec 2025
+Role Highlights
+→ Mentored and guided a research team on mitigating hallucinations in LLM-
+
+===== CHUNK 10 =====
+rsity
+Location: Rochester, NY
+Duration: Oct 2025 – Dec 2025
+Role Highlights
+→ Mentored and guided a research team on mitigating hallucinations in LLM-based security policy generation using prompt ensembling techniques.
+→ Contributed to system design by reviewing and strengthening prompt decomposition patterns to improve robustness against invalid and adversarial outputs.
+→ Reviewed research code, validated workflows, and analyzed generated policies for schema compliance and semantic correctness.
+→ Assisted in research paper writing, technical structuring, and refinement of experimental methodology and results interpretation.
+
+### AI Engineer Internship
+Company: Artificial Intelligence Risk, Inc
+Location: Connecticut, NY
+Duration: May 2025 – Aug 2025
+Role Highlights
+→ Developed and deployed AI agents for client use cases in automation and retrieval-augmented reasoning.
+→ Collaborated with and mentored a team of three junior engineers on agent development and deployment practices.
+→ Desi
+
+===== CHUNK 11 =====
+retrieval-augmented reasoning.
+→ Collaborated with and mentored a team of three junior engineers on agent development and deployment practices.
+→ Designed document classification and information retrieval pipelines for finance and banking workflows, supporting risk assessment and compliance.
+
+### Data Science Intern Internship
+Company: CodSoft
+Location: Chennai, TN
+Duration: July 2024 – Aug 2024
+Role Highlights
+→ Built Tableau dashboards and Implemented SQL queries with stored procedures to support analytics-driven projects.
+→ Leveraged Python libraries to implement real-world prediction use cases and improved efficiency through data-driven insights.
+
+-------------------
+
+## Contact
+Let’s talk about AI systems, RAG, or anything you’re building.
+Email: vetrim2003@gmail.com
+LinkedIn: https://www.linkedin.com/in/vetrivel-maheswaran/
+Twitter: https://twitter.com/irtev_m_07
+GitHub: https://github.com/vetrivel07
+Discord: https://discordapp.com/users/914083343342133248
+Pinterest: https://pin.
+
+===== CHUNK 12 =====
+https://twitter.com/irtev_m_07
+GitHub: https://github.com/vetrivel07
+Discord: https://discordapp.com/users/914083343342133248
+Pinterest: https://pin.it/4igfWWDru
