@@ -35,7 +35,6 @@ a { text-decoration: none; color: inherit; }
 .photoBg {
   position: absolute;
   inset: 0;
-  background-image: var();
   background-size: cover;
   background-position: center;
   filter: saturate(1.15) contrast(1.08);
@@ -314,7 +313,8 @@ section {
   border-radius: 0;
   border: 0;
   box-shadow: none;
-  background-image: var(--heroPhoto);
+  /* background-image: var(--heroPhoto); */
+  background-image: url(/assets/images/profile2.png);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
