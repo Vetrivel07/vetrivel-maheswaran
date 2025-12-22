@@ -4,11 +4,12 @@ import re
 import numpy as np
 import faiss
 import requests
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from dotenv import load_dotenv
+from flask import send_from_directory
 
 load_dotenv()
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static", template_folder="templates")
 
 # ---------------- CORS (local dev) ----------------
 @app.after_request
@@ -66,6 +67,32 @@ def retrieve(q: str, openai_key: str, k=5):
             continue
         results.append((float(score), _meta[int(idx)]))
     return results
+
+
+@app.get("/index.html")
+def home():
+    return render_template("index.html")
+
+@app.get("/about.html")
+def about():
+    return render_template("about.html")
+
+@app.get("/projects.html")
+def projects():
+    return render_template("projects.html")
+
+@app.get("/work.html")
+def work():
+    return render_template("work.html")
+
+@app.get("/contact.html")
+def contact():
+    return render_template("contact.html")
+
+# Serve /assets/... (images, icons, etc.)
+@app.get("/assets/<path:filename>")
+def assets(filename):
+    return send_from_directory("assets", filename)
 
 # ---------------- Chat endpoint ----------------
 @app.route("/api/chat", methods=["POST", "OPTIONS"])
