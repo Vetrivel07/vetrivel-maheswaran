@@ -69,6 +69,7 @@ def retrieve(q: str, openai_key: str, k=5):
     return results
 
 
+@app.get("/")
 @app.get("/index.html")
 def home():
     return render_template("index.html")
