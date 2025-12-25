@@ -3,3 +3,4 @@ python-dotenv
 requests
 faiss-cpu
 numpy
+gunicorn
