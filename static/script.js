@@ -552,6 +552,8 @@ document.querySelectorAll('[data-tilt]').forEach(card => {
   const pTags = document.getElementById("pTags");
   const pTech = document.getElementById("pTech");
   const pGithub = document.getElementById("pGithub");
+  // const pLivedemo = document.getElementById("pLivedemo");
+
 
   const splitCSV = (s) =>
     s.split(",").map(v => v.trim()).filter(Boolean);
@@ -614,6 +616,9 @@ document.querySelectorAll('[data-tilt]').forEach(card => {
       /* GITHUB */
       pGithub.href = card.dataset.github;
       pGithub.textContent = "Open repository";
+      // /* Live Demo */
+      // pLivedemo.href = card.dataset.livedemo;
+      // pLivedemo.textContent = "Live demo";
 
       openModal();
     });
