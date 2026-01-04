@@ -9,7 +9,7 @@ __pycache__/
 *.log
 
 # Virtual environments
-myenv/
+venv/
 
 # OS junk
 .DS_Store

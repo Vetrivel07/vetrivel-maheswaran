@@ -1,6 +1,6 @@
 flask
 python-dotenv
 requests
-faiss-cpu
-numpy
 gunicorn
+openai==1.12.0
+httpx==0.27.2
